@@ -1,0 +1,7 @@
+v1=Console.ReadLine("Nombre");
+v2=Console.ReadLine("edad");
+
+t1=v2-1;
+t2=v2+1;
+
+Console.Writeline("el año pasado tenias"$t1 "y el proximo año cumples " $t2);
