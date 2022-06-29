@@ -1,0 +1,10 @@
+Console.Writeline("Ingrese un valores");
+v1=Console.ReadLine("total a pagar");
+v2=Console.ReadLine("personas ");
+v3=Console.ReadLine("Propina"); //propina
+v4=Console.ReadLine("Impuesto");
+
+t1=v1+(v1*(V3/100))+(v1*(V4/100)) //total a pagar
+t2=t1/v2
+Console.Writeline("Total a pagar incluido impuesto y propina"$t1);
+Console.Writeline("Total a pagar por persona "$t2);
