@@ -1,0 +1,23 @@
+Console.Writeline("Ingrese un valor");
+texto=Console.ReadLine();
+char[] charArray = texto.ToCharArray();
+switch(op)
+{
+	case '1'
+	 Console.Writeline("Mostrar sus dos primeras letras.");
+	 Console.Writeline(charArray[0] ,charArray[1] );
+	 
+	 break;
+	 case '1'
+	 Console.Writeline("Mostrar sus tres primeras letras.");
+	 Console.Writeline(charArray[0] ,charArray[1],charArray[2] )
+	 break;
+	 case '1'
+	 Console.Writeline("Mostrar sus dos últimas letras.");
+	  Console.Writeline(charArray[-2] ,charArray[-1] );
+	 break;
+	  case '1'
+	 Console.Writeline("Mostrar su última letra.");
+	 Console.Writeline(charArray[-1] );
+	 break;
+}
